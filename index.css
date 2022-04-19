@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding:0;
+   box-sizing: border-box;
+}
+body{
+    background-image: url(/thumb-1920-679478.jpg);
+    font-family: 'montserrat', sans-serif;
+    background-size: cover;
+    background-position: top center;
+
+}
+.app-container{
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh ;
+    background-image: linear-gradient(to bottom, rgba(0 ,0, 0, 0.3), rgba(0, 0, 0, 0.6));
+
+}
+ header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+ }
+header input{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(255,  255,  255, 0.3);
+    border-radius: 16px 0px  16px 0px;
+    border-bottom: 3px  solid #df80df;
+    color: #313131;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.4s ease-out; 
+    align-content: center;
+
+} 
+header input:focus{
+     background-color: rgba(255,  255,  255, 0.6);
+}
+main{
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.location .city {
+    color:#ffff;
+    font-size:50px;
+    font-weight: 500;
+    margin-bottom: 5px;
+   
+
+}
+.location .date{
+    color: #ffff;
+    font-size: 16px;
+
+}
+.current .temp{
+    color: #ffff;
+    font-size: 110px;
+    font-weight: 800;
+    margin: 30px 0;
+    text-shadow: 2px 8px rgba(0, 0, 0, 0.6);
+}
